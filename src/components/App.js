@@ -37,7 +37,7 @@ const App = () => {
       <ul>
         {listItems.map((item, index) => (
           <li key={index}>
-            {item + "-" + index}
+            {item}
             <button onClick={() => hndleDeleteBtn(index)}>Delete</button>
           </li>
         ))}
